@@ -1,0 +1,247 @@
+@import './reset.css';
+
+body {
+	overflow-x: hidden;
+}
+
+/*part of header*/
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	align-self: flex-end;
+}
+
+.logo .logo_pic {
+	background: url('../img/TWICE_LOGO.png') no-repeat;
+	background-size: 50px auto;
+	height: 50px;
+	width: 55px;
+	display: inline-block;
+}
+
+nav {
+	display: flex;
+}
+
+.navitem {
+	padding: 20px;
+}
+
+.navitem a {
+	color: #000;
+	text-decoration: none;
+	transition: 0.25s;
+}
+
+.navitem a:hover {
+	color: #ff5fa2;
+}
+
+
+/*part of footer*/
+.link {
+	background-color: #2d2d2d;
+	width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.link div{
+	height: 50px;
+	width: 30px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.link .fb {
+	background: url('../img/facebook-logo.png') 10px no-repeat;
+	background-size: auto 20px;
+}
+.link .github {
+	background: url('../img/github-logo.png') 13px no-repeat;
+	background-size: auto 15px;
+}
+
+.link .twitter {
+	background: url('../img/twitter-logo.png') 9px no-repeat;
+	background-size: auto 20px;
+}
+
+
+/*part of artist*/
+#banner {
+	background-color: rgba(255,0,128,0.5);
+	height: auto;
+	width: 100%;
+	padding: 50px 0 50px;
+}
+
+#banner .artist-list div {
+	display: inline-block;
+}
+
+.artist-list {
+	position: relative;
+	background-color: #fff;
+	height: 280px;
+	width: 100%;
+}
+
+.artist-list .display-left {
+	position: absolute;
+	/*background-color: rgba(255,0,128,0.3);*/
+	height: 100px;
+	width: 30px;
+	top: 90px;
+	left: 0;
+	transition: 0.3s;
+}
+
+.artist-list .display-left:hover {
+	background-color: rgba(255,0,128,0.3);
+}
+
+.artist-list .display-left .back {
+	position: relative;
+	background: url('../img/back.png') 3px no-repeat;
+	background-size: auto 20px;
+	top: 35px;
+	height: 30px;
+	width: 30px;
+	border: none;
+}
+
+.artist-list .display-right {
+	position: absolute;
+	/*background-color: rgba(255,0,128,0.3);*/
+	height: 100px;
+	width: 30px;
+	top: 90px;
+	right: 0;
+}
+
+.artist-list .display-right:hover {
+	background-color: rgba(255,0,128,0.3);
+}
+
+.artist-list .display-right .next {
+	position: relative;
+	background: url('../img/next.png') 6px no-repeat;
+	background-size: auto 20px;
+	height: 100px;
+	width: 30px;
+	border: none;
+}
+
+/*.artist-list .artist {
+	position: absolute;
+	background: url('../img/artist/sana.jpg') no-repeat;
+	background-size: auto 200px;
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	top: 40px;
+	right: 42%;
+}*/
+
+.artist-list .artist {
+	position: absolute;
+	height: 280px;
+	width: 200px;
+	right: 42%;
+	display: none;
+}
+
+
+/*part of news*/
+#newsboard {
+	padding-top: 120px;
+	text-align: center;
+}
+
+.news-title {
+	font-size: 36px;
+	font-family: cursive;
+}
+
+.news li {
+	padding: 3px;
+}
+
+.news a {
+	text-decoration: none;
+}
+
+.news li p {
+	vertical-align: text-top;
+}
+
+.news ul li .title {
+	color: #000;
+	font-size: 15px;
+	/*padding-left: 50px;
+	overflow-wrap: break-word;*/
+	line-height: 1.8;
+	word-break: break-all;
+	width: 700px;
+	text-align: left;
+}
+
+.news ul li .title:hover {
+	/*color: #ffcc99;*/
+	color: #ff5fa2;
+}
+
+.news ul li .date {
+	color: #999999;
+	font-size: 15px;
+	line-height: 1.8;
+	height: 30px;
+}
+
+.news p {
+	padding: 6px;
+	display: inline-block;
+	text-align: center;
+}
+
+.view-all {
+	color: #999999;
+	font-size: 13px;
+}
+
+
+/*part of gallery*/
+#galleryboard {
+	padding-top: 110px;
+	padding-bottom: 70px;
+	margin: 30px;
+	text-align: center;
+}
+
+#galleryboard .gallery-title {
+	font-size: 36px;
+	font-family: cursive;	
+}
+
+.galleries a {
+	text-decoration: none;
+}
+
+.gallery-list {
+	/*display: inline-flex;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.gallery {
+	height: 400px;
+	width: 300px;
+	padding: 0 20px 0 20px;
+}
