@@ -1,0 +1,7 @@
+.logo .logo_pic {
+  background: url(/images/TWICE_LOGO.png?7b6ea036f03c3bed6867bf205e86f595) no-repeat;
+  background-size: 50px auto;
+  height: 50px;
+  width: 40px;
+  display: inline-block;
+}

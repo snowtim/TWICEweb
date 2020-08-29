@@ -10,6 +10,11 @@
 
 	<!--Bootstrape-->
 	<!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"-->
+
+	<!--Less-->
+	<!--link rel="stylesheet" href="{{ asset('less/test.less') }}"-->
+	<!--link rel="stylesheet/less" type="text/css" href="{{ asset('less/test.less') }}">
+	<script src="//cdn.jsdelivr.net/npm/less" ></script-->
 </head>
 
 <body>
